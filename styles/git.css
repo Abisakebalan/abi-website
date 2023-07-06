@@ -1,0 +1,361 @@
+
+*{
+
+  box-sizing: border-box;
+  
+  }
+  
+  body{
+  margin: 0;
+  padding: 0;
+  background-image: url(./blockchain-banner.png);
+  
+  
+  }
+  
+  .title{
+  
+  color: rgb(0, 247, 255);
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  
+  }
+  
+  .a{
+  
+  padding: 5px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  
+  }
+  
+  
+  nav ul{
+  
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  }
+  
+  nav li{
+  
+  display: inline-block;
+  
+  }
+  
+  nav a {
+  
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: rgb(0, 247, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 19px;
+  
+  }
+  
+  nav li:hover{
+  
+  background-color:rgb(19, 52, 53);
+  
+  
+  }
+  
+  nav li:hover .submenu{
+  
+  display: block;
+  
+  }
+  
+  nav ul.submenu{
+  
+  display: none;
+  position: absolute;
+  background-color:black;
+  padding: 0;
+  
+  }
+  
+  nav ul.submenu li {
+  
+  display: block;
+  
+  }
+  
+  nav ul.submenu a{
+  
+  padding: 10px 20px;
+  
+  }
+  
+  nav ul.submenu li:hover{
+  
+  background-color:rgb(29, 55, 29);
+  
+  }
+  
+  
+  .bc{
+  
+  background-color:aqua;
+  color:black;
+  border-style: solid;
+  padding: 8px;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-left: 9px;
+  
+  }
+  .abi{
+  font-family:Arial;
+  font-size: 16px;
+  
+  }
+  .bc:hover{
+  background-color: dodgerblue;
+  color: aliceblue;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+  }
+  
+  .para2{
+  
+    color:rgb(249, 249, 249);
+  font-size: 24px;
+  border: #f1f1f1;
+  box-shadow: #f1f1f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  .p2c{
+  
+  display: inline-block;
+  width: 56%;
+  margin-top: -18px;
+  
+  }
+  .b2{
+  
+    background-color:aqua;
+  color:black;
+  border-style: solid;
+  padding: 8px;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-left: 9px;
+  display: block;
+  
+  
+  }
+  .a2{
+  
+  font-family:Arial;
+  font-size: 16px;
+  }
+  
+  .b2:hover{
+  
+    background-color: dodgerblue;
+  color: aliceblue;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
+  }
+  .sc{
+  
+  color: aqua;
+  
+  }
+  
+  
+  h3{
+  
+  color: aqua;
+  font-size: 30px;
+  
+  }
+  
+  .middle-section{
+  
+  background-image: url(./1122324.jpg);
+  
+  }
+  .f1{
+  
+  color: #fff;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid white ;
+  width: 20%;
+  padding: 16px;
+  border-radius: 9px;
+  box-shadow: 0 0 9px rgb(248, 0, 248);
+  text-align: center;
+  display: inline-block;
+  
+  }
+  
+  .f1:hover{
+  
+  background-color: antiquewhite;
+  color:dodgerblue;
+  
+  }
+  
+  .f2{
+  
+    color: #fff;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid white ;
+  width: 20%;
+  padding: 16px;
+  border-radius: 9px;
+  box-shadow: 0 0 9px rgb(248, 0, 248);
+  text-align: center;
+  display: inline-block;
+  margin-left: 89px;
+  
+  }
+  
+  .f2:hover{
+  
+  background-color: antiquewhite;
+  color:dodgerblue;
+  
+  }
+  
+  .f3{
+  
+  color: #fff;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid white ;
+  width: 20%;
+  padding: 16px;
+  border-radius: 9px;
+  box-shadow: 0 0 9px rgb(248, 0, 248);
+  text-align: center;
+  display: inline-block;
+  margin-left: 89px;
+  
+  }
+  
+  .f3:hover{
+  
+  background-color: antiquewhite;
+  color:dodgerblue;
+  
+  }
+  
+  .f4{
+  
+  color: #fff;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid white ;
+  width: 20%;
+  padding: 16px;
+  border-radius: 9px;
+  box-shadow: 0 0 9px rgb(248, 0, 248);
+  text-align: center;
+  display: inline-block;
+  margin-left: 89px;
+  margin-top: 32px;
+  
+  }
+  
+  .f4:hover{
+  
+  background-color: antiquewhite;
+  color:dodgerblue;
+  
+  }
+  
+  .f5{
+  
+  color: #fff;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid white ;
+  width: 20%;
+  padding: 16px;
+  border-radius: 9px;
+  box-shadow: 0 0 9px rgb(248, 0, 248);
+  text-align: center;
+  display: inline-block;
+  margin-left: 89px;
+  
+  }
+  
+  .f5:hover{
+  
+  background-color: antiquewhite;
+  color:dodgerblue;
+  
+  }
+  
+  .f6{
+  
+  color: #fff;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid white ;
+  width: 20%;
+  padding: 16px;
+  border-radius: 9px;
+  box-shadow: 0 0 9px rgb(248, 0, 248);
+  text-align: center;
+  display: inline-block;
+  margin-left: 89px;
+  
+  }
+  
+  .f6:hover{
+  
+  background-color: antiquewhite;
+  color:dodgerblue;
+  
+  }
+  
+  
+  h2{
+  
+  color: rgb(44, 245, 235);
+  font-size: 32px;
+  font-family: Arial;
+  
+  }
+  
+  .h2c{
+  
+  display: inline-block;
+  width: 71%;
+  margin-top: 30px;
+  
+  
+  }
+  
+  
+  h1{
+  
+  color: rgb(44, 245, 235);
+  font-size: 48px;
+  font-family: Arial;
+  
+  }
+  .para{
+  
+  color:rgb(249, 249, 249);
+  font-size: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  .pclass{
+  display: inline-block;
+  width: 67%;
+  margin-top: -27px;
+  margin-left: 3px;
+  }
